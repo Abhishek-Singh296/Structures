@@ -7,7 +7,7 @@ The following image shows the memory allocation of the structure employee that i
 Here, struct is the keyword; employee is the name of the structure; id, name, and salary are the members or fields of the structure. 
 
 ## __Syntax:__
-The ,struct keyword is used to define the structure.
+The __struct__ keyword is used to define the structure.
 ```
 struct structure_name   
 {  
@@ -17,4 +17,19 @@ struct structure_name
     .  
     data_type memeberN;  
 };  
+```
+## __Declaring Structure Variable__
+We can declare a variable for the structure so that we can access the member of the structure easily by struct keyword within main() function.
+```
+struct employee  
+{   int id;  
+    char name[50];  
+    float salary;  
+};  
+```
+
+## __Accessing member of the Structure__
+We access the id member of p1 variable by. (member) operator.
+```
+p1.id  
 ```
