@@ -5,7 +5,7 @@ The following image shows the memory allocation of the structure employee that i
 
 ![Screenshot 2023-04-24 195034](https://user-images.githubusercontent.com/113619312/234025299-27dc703e-719f-47b9-bd9c-4c99c10e3885.png)
 Here, struct is the keyword; employee is the name of the structure; id, name, and salary are the members or fields of the structure. 
-
+---
 ## __Syntax:__
 The __struct__ keyword is used to define the structure.
 ```
@@ -33,6 +33,7 @@ We access the id member of p1 variable by. (member) operator.
 ```
 p1.id  
 ```
+---
 ## __Code__
 ```
 #include <stdio.h>
@@ -83,6 +84,7 @@ int main() {
 	return 0;
 }
 ```
+---
 ## __Output__
 ![Screenshot 2023-04-11 161011](https://user-images.githubusercontent.com/113619312/234029187-603a27c5-1349-45c4-8dd0-e29637ea04af.png)
 
